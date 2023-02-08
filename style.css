@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 100px;
+    justify-content: space-between;
+    background-color: gold;
+}
+
+.back-img {
+    background-image: url("https://img5.goodfon.ru/wallpaper/nbig/c/87/burger-tarelka-ogon-fon.jpg");
+    width: 1200px;
+    height: 150vh;
+    filter: brightness(80%);
+    background-color: #000;
+}
+
+header {
+    background-color: gold;
+    justify-content: space-between;
+    height: 50px;
+    width: 1200px;
+}
+
+.strelka {
+    width: 50px;
+    position: absolute;
+    bottom: 100px;
+    left: calc(50% - 25px);
+    opacity: 100;
+    animation: arrowDOWN 2s infinite;
+}
+
+@keyframes arrowDOWN {
+    0% {
+        bottom: 30px;
+    }
+    50% {
+        bottom: 0;
+    }
+    100% {
+        bottom: 30px;
+    }
+}
+
+.h1 {
+    margin-top: 0;
+    position: absolute;
+    bottom: 500px;
+    left: 400px;
+    color: white;
+    text-shadow: 10px 10px 5px black;
+    font-size: 50px;
+}
+
+.p {
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.burger {
+    width: 300px;
+    margin-left: 460px;
+}
+
+.text {
+    margin-left: 360px;
+    font-family: sans-serif;
+    margin-bottom: 51px;
+}
+
+.center {
+    margin-left: 60px;
+}
+
+nav {
+    position: relative;
+    top: 25px;
+    height: 100vh;
+}
+
+.link:hover {
+    color: black;
+    border-bottom: 1px solid black;
+    transition: 2s;
+}
+
+.menu {
+    background-image: url("https://phonoteka.org/uploads/posts/2021-04/1619485952_24-phonoteka_org-p-fon-dlya-menyu-s-blyudami-31.jpg");
+    width: 1200px;
+    height: 100vh;
+}
+
+.menu_h1 {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    top: 1500px;
+    left: 450px;
+    text-shadow: 15px 15px 15px black;
+}
+
+.quality {
+    color: white;
+    position: absolute;
+    top: 1670px;
+    left: 500px;
+    text-shadow: 15px 15px 15px black;
+}
+
+.ved {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+}
